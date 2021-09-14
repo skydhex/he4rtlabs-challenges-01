@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+header img {
+  width: 300px;
+  line-height: 100px;
+}
+header #about {
+  float: right;
+  margin-right: 5%;
+  margin-top: 25px;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  font-size: 17px;
+  text-decoration: none;
+}
+header #about:hover {
+  transition: 0.5s;
+  color: #000;
+  background-color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .card {
+  margin: 10px;
+  margin-top: 300px;
+  width: 300px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  border: 1px #6b48e9 solid;
+}
+main .card h1 {
+  margin: 0;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  background: #4c40bd;
+  color: white;
+  text-align: center;
+}
+main .card p {
+  padding: 2px 16px;
+}
+
+/*# sourceMappingURL=about.css.map */

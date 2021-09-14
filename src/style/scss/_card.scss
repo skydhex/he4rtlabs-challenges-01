@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .card {
+    margin: 10px;
+    margin-top: 300px;
+    width: 300px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    border: 1px $cardBorder solid;
+
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      height: 50px;
+      line-height: 50px;
+      background: $cardHeader;
+      color: white;
+      text-align: center;
+    }
+    p {
+      padding: 2px 16px;
+    }
+  }
+}

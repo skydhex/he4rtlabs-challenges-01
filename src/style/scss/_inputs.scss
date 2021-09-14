@@ -1,0 +1,41 @@
+#container-inputs {
+  @extend .flex;
+  flex-direction: column;
+  margin-top: 50px;
+
+  .inputs {
+    height: 50px;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    text-indent: 20px;
+    margin: 10px;
+
+    &:focus {
+      border-bottom: 3px solid $inputBorderColor;
+    }
+    &:hover {
+      border: 2px solid $inputBorderColor;
+    }
+  }
+}
+#submit {
+  width: 90%;
+  max-width: 700px;
+  align-items: flex-start;
+
+  .submit {
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: $bgSubmitBtn;
+    font-size: 17px;
+
+    color: #fff;
+    border: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
